@@ -1,0 +1,67 @@
+
+#page a,
+#page a:link,
+#page a:visited{
+    text-decoration: underline;
+    color: black;
+}
+#page a:hover{
+    background-color: rgb(169, 150, 177);
+    color: white;
+}
+#page a:active {
+    color: rgb(0, 0, 0);
+    background-color: rgb(169, 150, 177);
+  }
+
+.wrapper{
+    float:right;
+}
+
+.imagesRight{
+ margin: 6px
+}
+
+.wrapper2{
+    float:left;
+}
+
+.imagesLeft{
+ margin: 5px
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid black);
+    float: left;
+    width: 450px;
+    background-color: #b19cd9;
+    color: rgb (0,0,0);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+.imagesmiddle{
+ margin: 5px
+}
+
+.button {
+  background-color: rgb(169, 150, 177);
+  border: none;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 19px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
